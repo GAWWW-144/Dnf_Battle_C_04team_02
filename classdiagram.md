@@ -60,3 +60,6 @@ classDiagram
     
     전투 "1" *-- "1" 플레이어 : 포함 (Composition)
     플레이어 "1" o-- "0..1" 캐릭터 : 보관 (Aggregation)
+
+    전투 -- Create_Character_UI
+    전투 -- Attack_Monster_UI
